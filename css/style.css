@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+.space {
+    height: 700px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.firstSpace {
+    background-image:
+        radial-gradient(circle at 50% 50%, #069bff 0, #24527c 18%, #1441c534 40%, black 90%);
+}
+
+.scndSpace {
+    background-image:
+        radial-gradient(circle at 50% 50%, #222 0, #111 35%, #02030a 70%, black 100%);
+}
+
+.thirdSpace {
+    background-image:
+        radial-gradient(circle at 50% 50%, #182b4a 0, #07101e 40%, black 80%);
+}
+
+.fourthSpace {
+    background-image:
+        radial-gradient(circle at 30% 30%, #34265c 0, #120d24 30%, #02020a 70%, black 100%);
+}
+
+.fifthSpace {
+    background-image:
+        radial-gradient(circle at 50% 50%, black 0, black 12%, #090909 16%, #000000 30%, rgb(11, 11, 11) 70%);
+}
+
+.caption {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.caption h1 {
+    font-size: 50px;
+}
+
+.text {
+    min-height: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 35px;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.moon {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    left: 45%;
+    top: 35%;
+    box-shadow: 0 0 30px #777;
+}
+
+.sun {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #ff9b05;
+    left: 20%;
+    top: 35%;
+    box-shadow: 0 0 50px #d08b23;
+}
+
+.planet {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #b95b4b;
+    left: 65%;
+    top: 45%;
+}
+
+.saturn {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #e59b3b;
+    left: 45%;
+    top: 38%;
+    box-shadow: 0 0 20px #c99d65;
+}
+
+.saturn:after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    border: 4px solid #c7a77b;
+    border-radius: 50%;
+    left: -50px;
+    top: 45px;
+    transform: rotate(-10deg);
+}
+
+.blackhole {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: black;
+    border: 15px solid #b344c0;
+    left: 43%;
+    top: 36%;
+    box-shadow: 0 0 60px #aa4bb1;
+}
+
+.stars {
+    position: fixed;
+    width: 3px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    top: 20%;
+    left: 20%;
+    box-shadow:
+        100px 50px white,
+        250px 180px white,
+        400px 90px white,
+        550px 250px white,
+        700px 80px white,
+        850px 190px white,
+        1000px 120px white;
+    z-index: 5;
+}
+
+.last {
+    padding-bottom: 100px;
+}
+
+
